@@ -1,4 +1,5 @@
 #property copyright   "Goldesel contributors"
+#property link        "https://github.com/domsendotnet/MT5-Goldesel"
 #property version     "1.0.0"
 #property description "Survival-first XAUUSD/FX Expert Advisor. Not financial advice. You can lose the entire deposit."
 

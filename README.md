@@ -1,5 +1,7 @@
 # Goldesel
 
+Public source: [github.com/domsendotnet/MT5-Goldesel](https://github.com/domsendotnet/MT5-Goldesel)
+
 A MetaTrader 5 Expert Advisor for **XAUUSD** (and the same code path on majors such as EURUSD). Survival-first position sizing. One simple trend-pullback setup. Not a compounding product, not an investment advisor, not a managed account.
 
 ## DISCLAIMER — READ BEFORE ANYTHING ELSE
@@ -209,3 +211,5 @@ Out of v1. Pause algo around NFP/FOMC/CPI if you care.
 ## License
 
 MIT. Source only in git — no `.ex5`. Spec: [`docs/DESIGN.md`](docs/DESIGN.md).
+
+Repository: https://github.com/domsendotnet/MT5-Goldesel
