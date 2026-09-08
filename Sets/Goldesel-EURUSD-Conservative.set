@@ -1,0 +1,24 @@
+; Goldesel EURUSD conservative — same as XAUUSD except 10-tick slippage.
+; InpMaxSlippagePoints=10 means 10 TICKS (SYMBOL_TRADE_TICK_SIZE), not SYMBOL_POINT.
+; Live deviation is max(10 * tick_size, 1 * spread).
+; Tester session hours are GMT; live hours are broker server time.
+; $20 EURUSD with a 20-pip stop will SKIP_MINLOT_RISK. That is correct.
+
+InpMagic=20260908
+InpRiskPercent=0.5
+InpSignalTF=15
+InpBiasTF=16385
+InpFastEMA=21
+InpSlowEMA=55
+InpATRPeriod=14
+InpSLATRMult=1.5
+InpTPRMultiple=2.0
+InpUseTrail=true
+InpUseSessions=true
+InpSessionStartHour=7
+InpSessionEndHour=20
+InpMaxSpreadATRFrac=0.15
+InpDailyLossPercent=2.0
+InpWeeklyLossPercent=5.0
+InpMaxSlippagePoints=10
+InpFridayFlatten=true

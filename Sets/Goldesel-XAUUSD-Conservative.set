@@ -1,0 +1,24 @@
+; Goldesel XAUUSD conservative — matches code defaults.
+; InpMaxSlippagePoints=30 means 30 TICKS (SYMBOL_TRADE_TICK_SIZE), not SYMBOL_POINT.
+; Live deviation is max(30 * tick_size, 1 * spread).
+; Tester session hours are GMT; live hours are broker server time.
+; $20 gold with a typical ATR stop will SKIP_MINLOT_RISK. That is correct.
+
+InpMagic=20260908
+InpRiskPercent=0.5
+InpSignalTF=15
+InpBiasTF=16385
+InpFastEMA=21
+InpSlowEMA=55
+InpATRPeriod=14
+InpSLATRMult=1.5
+InpTPRMultiple=2.0
+InpUseTrail=true
+InpUseSessions=true
+InpSessionStartHour=7
+InpSessionEndHour=20
+InpMaxSpreadATRFrac=0.15
+InpDailyLossPercent=2.0
+InpWeeklyLossPercent=5.0
+InpMaxSlippagePoints=30
+InpFridayFlatten=true

@@ -1,0 +1,22 @@
+# Compiled experts / indicators
+*.ex5
+*.ex4
+
+# MetaEditor / tester junk
+*.log
+*.dat
+*.bak
+Tester/
+*.htm
+*.html
+*.png
+*.gif
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.idea/
+.vscode/
+*.swp
